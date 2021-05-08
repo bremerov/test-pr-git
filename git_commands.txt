@@ -1,17 +1,21 @@
 # 1. Create new branch
 
 git branch develop
-git chechout develop
+git checkout develop
 git push --set-upstream origin develop
 
 # 2. Add new code
 git push
 
 # 3. Merge branch
-git chechout main
+git checkout main
 git merge develop
 git push
 
 # 4. Delete branch
 git branch -d develop
 git push origin -d develop
+
+# 5. archive branch
+git tag archive/develop develop
+git branch -d develop
