@@ -6,3 +6,12 @@ git push --set-upstream origin develop
 
 # 2. Add new code
 git push
+
+# 3. Merge branch
+git chechout main
+git merge develop
+git push
+
+# 4. Delete branch
+git branch -d develop
+git push origin -d develop
