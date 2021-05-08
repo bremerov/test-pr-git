@@ -1,0 +1,3 @@
+git branch develop
+git chechout develop
+git push --set-upstream origin develop
