@@ -27,3 +27,8 @@ git checkout -b develop archive/develop
 
 # 7. Get current branch
 git branch --show-current
+
+# 8. Pull requests
+# https://www.atlassian.com/git/tutorials/making-a-pull-request
+git checkout -b feature1
+git push origin -d feature1
