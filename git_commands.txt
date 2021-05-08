@@ -1,3 +1,8 @@
+# 1. Create new branch
+
 git branch develop
 git chechout develop
 git push --set-upstream origin develop
+
+# 2. Add new code
+git push
