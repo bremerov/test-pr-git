@@ -10,6 +10,9 @@ def productNumbers(num1,num2):
 def divideNumbers(num1,num2):
     return num1 / num2
 
+def powerNumbers(num1,num2):
+    return pow(num1, num2)
+=======
 def divideThreeNumbers(num1,num2, num3):
     return (num1 / num2)/num3
 
@@ -20,4 +23,10 @@ print(str(som1 + som2))
 divide=divideNumbers(1,4)
 divideTwo=divideNumbers(1,4,4)
 product=productNumbers(1,4)
+
+print(str(divide + product))
+
+pow=powerNumbers(1,4)
+print(str(pow))
+=======
 print(str(divide + divideTwo + product))
