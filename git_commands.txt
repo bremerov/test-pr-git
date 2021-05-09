@@ -18,8 +18,10 @@ git push origin -d develop
 
 # 5. archive branch
 git tag archive/develop develop
+git checkout main
 git branch -d develop
 git push --tags
+git push --set-upstream origin main
 
 # 6. Restore from archive/tag
 git fetch origin or git pull origin # see https://www.git-tower.com/learn/git/faq/difference-between-git-fetch-git-pull/
